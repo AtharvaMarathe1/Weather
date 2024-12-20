@@ -38,7 +38,7 @@ const App = () => {
       }
       console.log(latitude, longitude);
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&hourly=temperature_2m`;
-      const url2 = `http://api.geonames.org/timezoneJSON?lat=${latitude}&lng=${longitude}&username=dekudeku`;
+      const url2 = `https://api.geonames.org/timezoneJSON?lat=${latitude}&lng=${longitude}&username=dekudeku`;
       try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -105,7 +105,7 @@ const App = () => {
         <input type="number" name="" id="" className={styles.inputt} value={latitude} onChange={(e) => setLatitude(e.target.value)}/>
         </div>
         <div>
-        <label htmlFor="">HELLo</label>
+        {/* <label htmlFor="">HELLo</label> */}
         <label htmlFor="" className={styles.spacing2}>Longitude </label>
         <input type="number" name="" id="lon" className={styles.inputt2} value={longitude} onChange={(e) => setLongitude(e.target.value)}/>
         </div>
