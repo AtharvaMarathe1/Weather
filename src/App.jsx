@@ -54,6 +54,7 @@ const App = () => {
         setData2(json2);
         
         setShow(true);
+        // setShow(true);
         // console.log(json);
       } catch (error) {
         console.error(error.message);
@@ -104,6 +105,7 @@ const App = () => {
         <input type="number" name="" id="" className={styles.inputt} value={latitude} onChange={(e) => setLatitude(e.target.value)}/>
         </div>
         <div>
+        <label htmlFor="">HELLo</label>
         <label htmlFor="" className={styles.spacing2}>Longitude </label>
         <input type="number" name="" id="lon" className={styles.inputt2} value={longitude} onChange={(e) => setLongitude(e.target.value)}/>
         </div>
