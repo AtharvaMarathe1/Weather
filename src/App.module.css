@@ -1,0 +1,156 @@
+body{
+    background: #E7E8D1;
+    /* margin:0; */
+    color:black;
+    background-image: url('./assets/sky.jpg'); /* Use the imported image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    margin: 0; /* Remove default body margin */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    
+}
+/* .sky{
+    position: absolute;
+    z-index: 1;
+    opacity: 15%;
+} */
+
+.container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* width:100%; */
+    margin-top: 120px;
+    z-index: 2;
+}
+
+.consO{
+    display: flex;
+    z-index: 2;
+    /* flex-wrap: wrap; */
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50%; */
+    margin:auto;
+    top: 310px;
+    
+    width: fit-content;
+    /* height: 50%; */
+    background: #B85042;
+    color: black;
+    font-style: italic;
+    font-size: larger;
+    
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+.cons{
+    display: flex;
+    z-index: 2;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50%; */
+    margin:auto;
+
+    width: fit-content;
+    /* height: 50%; */
+    background: #B85042;
+    color: black;
+    font-style: italic;
+    font-size: larger;
+    
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+
+
+
+.output{
+    
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    /* border-style: groove; */
+    /* margin-left: 400px;
+    margin-top: 500px; */
+    
+    width: 320px;
+    border-radius: 40px;
+    background: #B85042;
+    padding: 30px;
+    margin-top: 10px;
+
+    font-size: x-large;
+    color: #E7E8D1;
+}
+
+.inputt{
+    background-color: #A7BEAE;
+    color: BLACK;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+
+    border-style: none;
+    border-radius: 7px;
+}
+.inputt2{
+    background-color: #A7BEAE;
+    
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: large;
+    border-style: none;
+    border-radius: 7px;
+
+    /* -webkit-user-select: none; */
+}
+
+.mapers{
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.spacing{
+    
+    margin: 10px;
+}
+.spacing2{
+    margin: 3px;
+}
+
+.hello{
+    background-color: #A7BEAE;
+    font-size: medium;
+    border-radius: 100px;
+    margin-top: 15px;
+    /* margin-left: 250px; */
+    width: 100%;
+    /* border-color: black; */
+    cursor: pointer;
+    border-style: none;
+}
+
+.opp{
+    color: black;
+    font-style: italic;
+}
+
+
+
+
+
+
